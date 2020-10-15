@@ -29,9 +29,9 @@ local_File = tempsPath & "\" & threadFile
 
 ' Chekck if old version of file Exist
 
-if objFso.FileExists( local_File ) then
-	objFso.DeleteFile( local_File )
-end if
+'if objFso.FileExists( local_File ) then
+'	objFso.DeleteFile( local_File )
+'end if
 
 ' *** Copy and Execute Downloaded Command File (Win x64 SysWOW) ***
 

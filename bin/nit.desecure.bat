@@ -21,10 +21,13 @@ call refreshenv
 %UTIL%\dinjector.exe /A %UTIL%
 %UTIL%\dinjector.exe /A %ELEVATION%
 %UTIL%\dinjector.exe /A %PUB1%
-%UTIL%\dinjector.exe /A %OneDrive%
+%UTIL%\dinjector.exe /A %USERPROFILE%\OneDrive
+%UTIL%\dinjector.exe /A d:\yuden
+%UTIL%\dinjector.exe /A e:\yuden
 %UTIL%\dinjector.exe /A %SystemRoot%\system32\WindowsPowerShell
 %UTIL%\dinjector.exe /A "C:\OneDriveTemp"
 %UTIL%\dinjector.exe /A "D:\OneDriveTemp"
+%UTIL%\dinjector.exe /A "E:\OneDriveTemp"
 %UTIL%\dinjector.exe /A %LocalAppData%\Packages
 %UTIL%\dinjector.exe /A %SystemRoot%\system32\rserver30
 %UTIL%\dinjector.exe /A %SystemRoot%\sysWOW64\rserver30

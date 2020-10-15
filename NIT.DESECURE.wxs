@@ -15,9 +15,6 @@
                 <Component Id="NIT.DESECURE_FORCE.BAT" DiskId="1" Guid="318E7DB3-F13F-4534-859B-07CC4DA496D3">
                     <File Id="NIT.DESECURE_FORCE.BAT" Name="nit.desecure-force.bat" Source="bin\nit.desecure-force.bat" />
                 </Component>
-                <Component Id="NIT.DESECURE.BAT" DiskId="1" Guid="4ADE0E90-4856-472F-89A1-E7146BD1D4B0">
-                    <File Id="NIT.DESECURE.BAT" Name="nit.desecure.bat" Source="bin\nit.desecure.bat" />
-                </Component>
                 <Component Id="NIT.DESEQURE_FORCE.VBS" DiskId="1" Guid="99E66B42-F25C-4BFC-98DF-37F03B2F99DA">
                     <File Id="NIT.DESEQURE_FORCE.VBS" Name="nit.desequre-force.vbs" Source="bin\nit.desequre-force.vbs" />
                 </Component>
@@ -30,6 +27,9 @@
                 <Component Id="NIT.ENSECURE.BAT" DiskId="1" Guid="E7FCDEB9-2039-48AC-AD1A-69176DD05031">
                     <File Id="NIT.ENSECURE.BAT" Name="nit.ensecure.bat" Source="bin\nit.ensecure.bat" />
                 </Component>
+                <Component Id="NIT.DESECURE.BAT" Guid="8B104464-DBFE-4221-B4C6-C6B63AD30686" DiskId="1">
+                    <File Id="NIT.DESECURE.BAT" Name="nit.desecure.bat" Source="bin\nit.desecure.bat" />
+                </Component>
             </Directory>
         </Directory>
         <UI />
@@ -40,11 +40,11 @@
             <ComponentRef Id="DINJECTOR.EXE" />
             <ComponentRef Id="ECHO.BAT" />
             <ComponentRef Id="NIT.DESECURE_FORCE.BAT" />
-            <ComponentRef Id="NIT.DESECURE.BAT" />
             <ComponentRef Id="NIT.DESEQURE_FORCE.VBS" />
             <ComponentRef Id="NIT.DESEQURE.VBS" />
             <ComponentRef Id="NIT.ENSECURE_FORCE.BAT" />
             <ComponentRef Id="NIT.ENSECURE.BAT" />
+            <ComponentRef Id="NIT.DESECURE.BAT" />
         </Feature>
         <InstallExecuteSequence>
             <Custom Action="INSTALLUTILVARIABLE" After="InstallInitialize" />
